@@ -1,0 +1,15 @@
+app:
+  name: demoaug2024_2-wind-turbine-app
+  namespace: demoaug2024_2
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/demoaug2024_2-wind-turbine
+  org: WindTurbineInc
+  name: demoaug2024_2-wind-turbine
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: demoaug2024_2/wind-turbine-app
+  tag: latest
